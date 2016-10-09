@@ -19,6 +19,7 @@ title: Home
 * Embedded C for ARM Cortex M0, M3
 * Android App development
 * 丰富的经验：高频电路开发，天线，EMI/EMC，WIFI, BT, GPS, NFC , 通讯协议, 通讯模块,手机
+* Ansoft HFSS, Electromagnetics simulation
 
 
 ## 项目
