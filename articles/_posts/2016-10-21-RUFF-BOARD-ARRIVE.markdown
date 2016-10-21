@@ -6,11 +6,11 @@ categories: articles
 ---
 289元淘宝上买的。主板使用了台湾的一款无线路由器芯片RT5350,不是mtk的MT7688,略失望。
 
-![Ruff.io EVB](../../../assets/images/ruff_board.png)
+![Ruff.io EVB](../../../assets/images/ruff_board.jpg)
 
-还有一堆附件，这个比较好，省的要用的时候再东找西找的了。
+还有一堆附件，这个比较好，省的要用的时候再东找西找的了。有红外，led灯，声音，Ruff把底层隐藏了，提供统一的JavaScript编程接口。实际上单片机操作的也就是事件触发，周期性任务这种东西。我回想起Nordic蓝牙芯片的编程接口，也是用的.on(event,func)这种形式。
 
-![Ruff.io acses sensors](../../../assets/images/ruff_accessory.png)
+![Ruff.io acses sensors](../../../assets/images/ruff_accessory.jpg)
 
 下午开始看网上教程，实现了3个功能：按键响应，三色灯的控制还有用http.get()指令从iot.boxshell.cn抓一个http的包。非常顺畅！尤其是第三个任务，用Javascript来实现实在是太简单了。同时还支持Http server功能，我想用它来开发一个Zigbee网关真的是快刀斩乱麻！
 
